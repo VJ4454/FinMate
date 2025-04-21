@@ -1,0 +1,31 @@
+# Ignore all node_modules in any subdirectory
+**/node_modules/
+
+# Ignore environment variable files
+**/.env
+**/.env.local
+
+# Ignore log files
+**/logs/
+**/*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore build output (optional, in case you build the frontend)
+**/dist/
+**/build/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore coverage reports (if you're running tests)
+coverage/
